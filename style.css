@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #cd5c5c;
+  color: #ffffff;
+}
+
+header {
+  background-color: #420d09;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('https://source.unsplash.com/1200x400/?rose') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.gallery img {
+  border: 5px solid #cd5c5c;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #420d09;
+  color: white;
+  margin-top: 30px;
+}
